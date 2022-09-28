@@ -31,17 +31,7 @@ const Navbar = () => {
                 AboutUs
               </p>
             </Link>
-            <Link href="/connect">
-              <p
-                className={
-                  router.asPath === "/connect"
-                    ? "block text-lg font-bold transition duration-150 border-b-8  cursor-pointer md:text-xl font-overlock border-[#7c552e] "
-                    : "block text-lg font-bold transition duration-150 border-b-8 border-transparent cursor-pointer md:text-xl font-overlock hover:border-[#7c552e] "
-                }
-              >
-                Connect
-              </p>
-            </Link>
+
             <Link href="/services">
               <p
                 className={
@@ -62,6 +52,17 @@ const Navbar = () => {
                 }
               >
                 Gallery
+              </p>
+            </Link>
+            <Link href="/connect">
+              <p
+                className={
+                  router.asPath === "/connect"
+                    ? "block text-lg font-bold transition duration-150 border-b-8  cursor-pointer md:text-xl font-overlock border-[#7c552e] "
+                    : "block text-lg font-bold transition duration-150 border-b-8 border-transparent cursor-pointer md:text-xl font-overlock hover:border-[#7c552e] "
+                }
+              >
+                Connect
               </p>
             </Link>
             <Link href="/blogs">

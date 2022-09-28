@@ -8,8 +8,13 @@ module.exports = {
     extend: {
       fontFamily: {
         overlock: ["Overlock", "cursive"],
+        cookie: ["Cookie", "cursive"],
+        sacramento: ["Ssacramento", "cursive"],
+        boogaloo: ["Boogaloo", "cursive"],
       },
     },
   },
   plugins: [],
 };
+// font-family: ;
+// font-family: 'Sacramento', cursive;
