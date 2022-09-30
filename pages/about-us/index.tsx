@@ -6,6 +6,7 @@ import MeetTheFounders from "../../components/aboutus/MeetTheFounders";
 import Teams from "../../components/aboutus/Teams";
 import Navbar from "../../components/Navbar";
 import Devider from "../../components/ui/Devider";
+import DeviderType2 from "../../components/ui/Devidertype2";
 const AboutUsPage: NextPage = () => {
   return (
     <div>
@@ -17,10 +18,10 @@ const AboutUsPage: NextPage = () => {
       <div className="bg-[#fcf3ea] items-center">
         <Navbar />
         <Hero />
-        <Devider type="deviderType3" />
+        <Devider />
         <MeetTheFounders />
         <Teams />
-        <Devider type="deviderType2" />
+        <DeviderType2 />
         <CompanyGenaralInfo />
       </div>
     </div>
