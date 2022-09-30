@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import CompanyGenaralInfo from "../../components/aboutus/CompanyGenaralInfo";
 import Hero from "../../components/aboutus/Hero";
 import MeetTheFounders from "../../components/aboutus/MeetTheFounders";
+import Teams from "../../components/aboutus/Teams";
 import Navbar from "../../components/Navbar";
 import Devider from "../../components/ui/Devider";
 const AboutUsPage: NextPage = () => {
@@ -15,8 +17,11 @@ const AboutUsPage: NextPage = () => {
       <div className="bg-[#fcf3ea] items-center">
         <Navbar />
         <Hero />
-        <Devider />
+        <Devider type="deviderType3" />
         <MeetTheFounders />
+        <Teams />
+        <Devider type="deviderType2" />
+        <CompanyGenaralInfo />
       </div>
     </div>
   );

@@ -27,13 +27,13 @@ const MeetTheFounders = () => {
           </div>
           {/* images div */}
           <div className="flex flex-col items-center justify-center w-1/3 h-full border border-black">
-            <Image
+            {/* <Image
               src={founderThumbnailPic}
               // width="100%"
               // height="100%"
               // layout="responsive"
               className="object-contain w-full h-full"
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -43,13 +43,13 @@ const MeetTheFounders = () => {
         <div className="flex flex-row w-full h-full p-12 mx-auto max-w-7xl ">
           {/* images div */}
           <div className="flex flex-col items-center justify-center w-1/3 h-full border border-black">
-            <Image
+            {/* <Image
               src={founderThumbnailPic}
               // width="100%"
               // height="100%"
               // layout="responsive"
               className="object-contain w-full h-full"
-            />
+            /> */}
           </div>
           {/* details div */}
           <div className="flex flex-col items-center justify-end w-2/3 h-full border border-black">
