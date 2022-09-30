@@ -21,7 +21,7 @@ const AboutUsPage: NextPage = () => {
         <Devider />
         <MeetTheFounders />
         <Teams />
-        <DeviderType2 />
+        {/* <DeviderType2 /> */}
         <CompanyGenaralInfo />
       </div>
     </div>
