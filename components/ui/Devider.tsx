@@ -11,11 +11,11 @@ interface IDeviderProps {
 const Devider = ({ type }: IDeviderProps) => {
   let deviderImg;
   if (type === "deviderType1") {
-    deviderImg = <Image src={deviderType1} width="250" height="25" />;
+    deviderImg = <Image src={deviderType1} width={250} height={25} />;
   } else if (type === "deviderType2") {
-    deviderImg = <Image src={deviderType2} width="250" height="25" />;
+    deviderImg = <Image src={deviderType2} width={250} height={25} />;
   } else if (type === "deviderType3") {
-    deviderImg = <Image src={deviderType3} width="250" height="25" />;
+    deviderImg = <Image src={deviderType3} width={250} height={25} />;
   }
   return (
     <div className="flex flex-row items-center justify-center py-8 mx-auto max-w-7xl">
