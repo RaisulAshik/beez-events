@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import aboutusheroImg from "../../assets/about-us-hero.jpg";
-const Hero = () => {
+import serviceHeroImg from "../../assets/service-hero.jpg";
+const ServiceHero = () => {
   return (
     <div className="h-[calc(100vh_-_300px)] w-full flex flex-col items-center justify-center border border-black mt-1">
       <Image
-        src={aboutusheroImg}
+        src={serviceHeroImg}
         className="object-cover w-full h-full "
         alt=""
       />
@@ -13,4 +13,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default ServiceHero;

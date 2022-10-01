@@ -7,7 +7,7 @@ const Teams = () => {
         <div className="w-full px-4 mx-auto md:px-8">
           {/* <!-- text - start --> */}
           <div className="mb-10 md:mb-16">
-            <h2 className="mb-4 text-3xl font-bold text-[#b8cc08] font-cookie text-center lg:text-5xl md:mb-6">
+            <h2 className="mb-4 text-3xl font-bold text-[#7c552e] font-cookie text-center lg:text-5xl md:mb-6">
               Meet our Team
             </h2>
 
@@ -58,7 +58,7 @@ const Teams = () => {
                     Kate Berg
                   </div>
                   <p className="text-sm text-center text-gray-500 md:text-base sm:text-left">
-                    Chif od Staff
+                    Chief of Staff
                   </p>
                 </div>
               </div>

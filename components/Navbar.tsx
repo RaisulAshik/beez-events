@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import logoImage from "../assets/logo.jpeg";
+import logoImage from "../assets/logo-1.png";
 const Navbar = () => {
   const router = useRouter();
   return (
@@ -77,13 +77,11 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
-          <div className="w-3/12 h-full border border-black ">
+          <div className="flex flex-col items-center justify-center w-3/12 h-full border border-black">
             <Image
               src={logoImage}
               alt="logo"
-              width="100%"
-              height="100%"
-              className="items-center"
+              className="object-contain w-full h-full"
             />
           </div>
         </div>
